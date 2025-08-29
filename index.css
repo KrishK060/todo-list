@@ -19,6 +19,17 @@ body{
     border: 2px solid white;
     border-radius: 15px;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    /* height: 100vh; */
+    border: 2px solid white;
+    border-radius: 15px;
+}
 h1{
     text-align: center;
     
@@ -29,7 +40,17 @@ h1{
     flex-direction: column;
     gap:5px;
 }
+.input-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:5px;
+}
 .input-task{
+    padding: 5px;
+    width:270px
+}
+.input-city{
     padding: 5px;
     width:270px
 }
