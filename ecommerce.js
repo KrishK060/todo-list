@@ -63,13 +63,13 @@ document.addEventListener('DOMContentLoaded',()=>{
           totalPriceDisplay.innerText = "0";
         }
       
-        // ✅ Attach remove listeners
+        
         const removeButtons = document.querySelectorAll(".removeProduct");
         removeButtons.forEach((btn) => {
           btn.addEventListener("click", (e) => {
             const index = e.target.getAttribute("data-index");
-            cart.splice(index, 1);   // remove item
-            renderCart(cart);        // re-render cart → total recalculated
+            cart.splice(index, 1);   
+            renderCart(cart);       
           });
         });
       }
